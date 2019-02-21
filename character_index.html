@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Which Character are You?</title>
+    <link rel="stylesheet"    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/character_styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src="js/characters_scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Answer the questions below to discover your character twin from Sex in the City!</h1>
+      <form id="quiz" class="" action="index.html" method="post">
+        <div id="question1" class="jumbotron">
+          <label for="radio_home">Do live in Manhattan?</label>
+          <div id="radio_home" class="radio">
+            <label>
+              <input type="radio" name="home" value="Yes">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="home" value="No">
+              No
+            </label>
+          </div>
+        </div>
+        <div id="question2" class="jumbotron">
+          <label for="radio_hair">What hair color?</label>
+
+            <div id="radio_hair" class="radio">
+              <label>
+                <input type="radio" name="hair_color" value="Blonde">
+                Blonde
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="hair_color" value="Brown">
+                Brown
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="hair_color" value="Red">
+                Red
+              </label>
+            </div>
+        </div>
+
+        <div id="question3" class="jumbotron">
+          <label for="radio_work">What is your profession?</label>
+          <div id="radio_work" class="radio">
+            <label>
+              <input type="radio" name="work" value="Lawyer">
+              Lawyer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="work" value="Marketing Director">
+              Marketing Director
+            </label>
+          </div>
+          <div id="radio_work" class="radio">
+            <label>
+              <input type="radio" name="work" value="Writer">
+              Writer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="work" value="Gallery Director">
+              Gallery Director
+            </label>
+          </div>
+        </div>
+        <button type="submit" name="button">Get the Answer!</button>
+      </form>
+      <img id="miranda" src="https://imgix.bustle.com/rehost/2016/9/13/d90659a6-6628-4d70-8ae0-1aecb8f5a11f.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70" alt="W3Schools.com">
+      <img id="carrie" src="https://cdn.evoke.ie/wp-content/uploads/2017/06/08164522/Sex-and-The-City.jpg" alt="W3Schools.com">
+      <img id ="samantha" src="https://d2m3klzcmjgreb.cloudfront.net/wp-content/uploads/2016/06/sam55.jpg" alt="W3Schools.com">
+      <img id="charlotte" src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-img.instyle.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F684xflex%2Fpublic%2Fimages%2F2018%2F06%2F060618-satc-kristin-davis-lead.jpg%3Fitok%3DEwsu1uHG&w=400&c=sc&poi=face&q=85" alt="W3Schools.com">
+      <p id = "anyone">You are anyone who live in New York... But you don't have a character.</p>
+    </div>
+  </body>
+</html>
